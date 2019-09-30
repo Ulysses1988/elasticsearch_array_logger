@@ -30,7 +30,7 @@ setup(
     author_email='253572796@qq.com',
     description='Elasticsearch array logger',
     license='BSD',
-    keywords='Elasticsearch,logger,list',
+    keywords='Elasticsearch,logger,list,array',
     url='https://github.com/python-social-auth/social-app-django',
     packages=['es_array_logger'],
     long_description=long_description(),

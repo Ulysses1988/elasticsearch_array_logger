@@ -1,4 +1,4 @@
-import logging.handlers
+import logging
 from elasticsearch import Elasticsearch
 from es_array_logger.es_handler import *
 
