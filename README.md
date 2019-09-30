@@ -1,4 +1,6 @@
 # elasticsearch array logger
+将日志按照组格式存储到elasticsearch，每条日志为一个数组元素
+
 ## Intasll 安装
 ```
 pip install es-array-logger 
