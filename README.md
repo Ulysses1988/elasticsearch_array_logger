@@ -1,9 +1,9 @@
 # elasticsearch array logger
-## Intasll
+## Intasll 安装
 ```
 pip install es-array-logger 
 ```
-## Usage
+## Usage 使用
 ```
 import logging
 from elasticsearch import Elasticsearch
@@ -17,7 +17,7 @@ for item in range(0, 7):
     putinfo = "{:-^12}".format(item)
     ranlogger.info(putinfo)
 ```
-_doc in Elasticsearch
+_doc in Elasticsearch 在Elasticsearch中查询文档
 ```
 {
 "_index": "test",
