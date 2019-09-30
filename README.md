@@ -4,7 +4,7 @@
 ## Intasll 安装
 source install
 ```
-python setuo.py install
+python setup.py install
 ```
 pypi install
 ```
