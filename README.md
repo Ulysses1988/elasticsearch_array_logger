@@ -17,7 +17,7 @@ for item in range(0, 7):
     putinfo = "{:-^12}".format(item)
     ranlogger.info(putinfo)
 ```
-result
+_doc in Elasticsearch
 ```
 {
 "_index": "test",
