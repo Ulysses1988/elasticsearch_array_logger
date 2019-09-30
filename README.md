@@ -2,8 +2,13 @@
 将日志按照组格式存储到elasticsearch，每条日志为一个数组元素
 
 ## Intasll 安装
+source install
 ```
-pip install es-array-logger 
+python setuo.py install
+```
+pypi install
+```
+pip install es-array-logger
 ```
 ## Usage 使用
 ```
