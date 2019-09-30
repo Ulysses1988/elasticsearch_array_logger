@@ -1,5 +1,10 @@
 # elasticsearch array logger
-## intasll
+## Intasll
+```
+pip install es-array-logger 
+```
+## Usage
+```
 import logging
 from elasticsearch import Elasticsearch
 from es_array_logger import es_handler
@@ -11,5 +16,6 @@ ranlogger.addHandler(es_handler)
 for item in range(0, 7):
     putinfo = "{:-^12}".format(item)
     ranlogger.info(putinfo)
+```
     
     
