@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
 """Setup file for easy installation"""
 import re
-
 from os.path import join, dirname
 from setuptools import setup
 
